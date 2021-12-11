@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:backgroundTint="#F6C0EA"
+    android:orientation="vertical"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip"
+    tools:context=".About">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constrainedWidth="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="424dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/kisspng_zakat_al_mal_amil_zakat_al_fitr_clip_art_zakat_5b4058405d4dc2_9093839815309435523822_removebg_preview" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="About Us"
+            android:textColor="#51042C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Zakat Gold Payment Apps was created on Dec 2021 by Nor Izzati Auni Binti Mohd Jasni (2019229936) "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Programme Code : CS240 | Group : RCS2405A"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="21dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Information\n
+            This Android mobile application is about to calculates the Zakat Gold payment. The weight, type gold and current value of gold are entered so that total payment need to pay will be obtained as output. \n\n
+Copyright Statement"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Zakat Gold Payment"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Copyright (c) Izzati. 2021"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/gitURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="https://github.com/zatyauni"
+        android:textColor="#0420CD"
+        android:textColorHighlight="#032CA5"
+        android:textColorLink="#0B1DBC"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

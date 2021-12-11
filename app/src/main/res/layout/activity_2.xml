@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6C0EA"
+    android:backgroundTint="#F6C0EA"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttonAbout"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#545454"
+            android:text="About Us"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <Button
+            android:id="@+id/buttonCal"
+            android:layout_width="207dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#545454"
+            android:text="ZAKAT CALCULATOR"
+            tools:layout_editor_absoluteX="184dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="ZAKAT GOLD"
+        android:textAlignment="center"
+        android:textColor="#51042C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/zakat"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="600dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E5B2F8"
+                android:text="Zakat on gold is mandatory similar to Zakat al-mal for all Muslims which is to be charged over the total amount of gold owned by a person if it exceeds a certain quantity. The quantity over which the zakat is applicable to be paid is known as nisab. The nisab for gold or gold jewellery is 85 grams (g) of gold . It means that if a person owns 85g of gold and has held it for more than a (lunar) year then he is obligated to pay zakat over the gold owned by him. The nisab for gold during the lifetime of Holy Prophet (PBUH) is known to be 20dinars of gold.
+                The percentage of zakat on gold is same as on all other monetary items, that is, 2.5 percent of the total worth of savings. Therefore, a person having more than 85g of gold, held for over a year has to pay 2.5 percent. It is worth mentioning here that both the traders and the individuals have to pay zakat on all of the gold if it is higher than the prescribed nisab, unlike in property where the property for residential purpose in exempt from zakat payments."
+                android:textColor="#151415"
+                android:textSize="25sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
